@@ -1,0 +1,32 @@
+/* Reset dan Variables */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --primary: #5865f2;
+    --primary-dark: #4752c4;
+    --primary-light: rgba(88, 101, 242, 0.1);
+    --secondary: #57f287;
+    /* ... tambahkan semua variable CSS ... */
+}
+
+/* Global Styles */
+body {
+    background: var(--dark);
+    color: var(--text);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Component Styles */
+.header { /* ... */ }
+.card { /* ... */ }
+.btn { /* ... */ }
+.modal { /* ... */ }
+
+/* Responsive */
+@media (max-width: 768px) { /* ... */ }
