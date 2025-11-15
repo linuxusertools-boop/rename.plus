@@ -1,0 +1,9 @@
+{
+  "name": "rename-plus",
+  "version": "1.0.0",
+  "description": "Professional File Renaming Tool",
+  "type": "module",
+  "scripts": {
+    "build": "echo 'No build step needed'"
+  }
+}
