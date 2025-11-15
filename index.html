@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rename.plus - Professional File Renaming Tool</title>
+    <link rel="stylesheet" href="./src/styles/main.css">
+</head>
+<body>
+    <!-- Audio Elements -->
+    <audio id="backgroundMusic" loop preload="auto">
+        <source src="./public/assets/audio/background.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- Music Control -->
+    <div class="music-control" id="musicControl">
+        <button class="music-btn" onclick="toggleBackgroundMusic()">
+            <span id="musicIcon">🔊</span>
+        </button>
+    </div>
+
+    <!-- Notification System -->
+    <div class="notification" id="notification"></div>
+    <div class="music-notification" id="musicNotification"></div>
+
+    <!-- Modals -->
+    <div class="modal" id="userModal">
+        <!-- Modal content -->
+    </div>
+
+    <!-- Login Screen -->
+    <div class="login-container" id="loginScreen">
+        <!-- Login content -->
+    </div>
+
+    <!-- Main App -->
+    <div class="app-container" id="mainApp" style="display: none;">
+        <!-- Header, Main Content, Footer -->
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script type="module" src="./src/js/main.js"></script>
+    <script type="module" src="./src/js/auth.js"></script>
+    <script type="module" src="./src/js/zipProcessor.js"></script>
+    <script type="module" src="./src/js/ui.js"></script>
+</body>
+</html>
